@@ -1,0 +1,12 @@
+.btOne, .btTw{
+    font-size: 28px;
+}
+
+.btOne{
+    background-color: black;
+    color:white;
+}
+.btTw{
+    background-color: yellow;
+    color:black;
+}
