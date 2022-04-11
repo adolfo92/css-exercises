@@ -1,0 +1,11 @@
+/*Tomo el hijo proportioned de la clase Avatar, asi garantizo que solo los que tengan ambas clases sean modificados*/
+.avatar.proportioned{
+
+    width: 300px;
+    height: 300px;
+
+}
+
+/*Tomo el hijo distorted de la clase Avatar, asi garantizo que solo los que tengan ambas clases sean modificados*/
+.avatar.distorted{width: 200px;
+height: 400px;}
