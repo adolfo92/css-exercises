@@ -3,12 +3,19 @@
   color: hsl(0, 100%, 50%);
 }
 
+.para {
+  font-size: 22px;
+}
+
 .small-para {
   font-size: 14px;
 }
+/* Done */
 
-.para {
-  font-size: 22px;
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
 }
 
 .confirm {
@@ -17,18 +24,17 @@
   font-weight: bold;
 } 
 
-.button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-}
+/*Done*/
 
-.child {
-  color: red;
-  font-size: 14px;
-}
+/* Todo lo contenido en div y tenga clase text*/
 
 div.text {
   color: green;
   font-size: 22px;
+}
+
+/* Child de clase child de todo lo contenido en div y tenga clase text*/
+div.text .child {
+  color: red;
+  font-size: 14px;
 }
